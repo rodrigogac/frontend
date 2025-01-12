@@ -1,0 +1,37 @@
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #E8E8E8;
+    padding-top: 50px;
+    min-height: 100vh; /* Garante altura mínima de toda a viewport */
+
+}
+
+main {
+    flex: 1;
+    padding-top: 10px; /* Espaçamento entre o header e o conteúdo */
+}
+
+app-root {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Faz o conteúdo ocupar o espaço disponível */
+}
+
+router-outlet {
+  flex: 1; /* Faz o conteúdo expandir e empurrar o rodapé */
+}
+
+footer {
+  background: #002855;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  margin-top: auto; /* Mantém o rodapé no final quando a tela for pequena */
+}

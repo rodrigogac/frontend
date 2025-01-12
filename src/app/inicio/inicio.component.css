@@ -1,0 +1,101 @@
+/* Container Principal */
+.inicio-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background: #E8E8E8;
+    
+}
+
+/* Título Principal */
+.title {
+    color: var(--Pure-pure-100, #000);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Rawline';
+    font-size: 41.8px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: var(--Pure-pure-100, #000);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Rawline';
+    font-size: 29.3px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+/* Estilização do Card */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--Pure-pure, #FFF);
+    box-shadow: 0px -9px 6px 0px rgba(0, 0, 0, 0.16);
+    padding: 40px;
+    width: 1110px;
+}
+
+.card-title {
+    font-size: 34.84px;
+    font-family: 'Rawline';
+    font-weight: 400;
+}
+
+.card-date {
+    font-size: 16.8px;
+    color: var(--Gray-gray-40, #888);
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.card-text {
+    font-size: 16.8px;
+    font-family: 'Rawline';
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+/* Estilização das Colunas */
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+}
+
+.column img {
+    max-width: 100%;
+    height: auto;
+}
+
+.column h4 {
+    font-size: 20.16px;
+    font-family: 'Rawline';
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.external-link {
+    color: var(--Blue-Warm-Vivid-blue-warm-vivid-70, #1351B4);
+    font-size: 14px;
+    font-family: 'Rawline';
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}

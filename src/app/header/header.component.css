@@ -1,0 +1,58 @@
+:host {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    height: 60px; /* Altura fixa do header */
+}
+
+
+.br-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-logo img {
+    max-height: 40px;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-actions .br-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.header-actions .br-list {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header-actions .dropdown:hover .br-list {
+    display: block;
+}
+
+.header-actions .br-button:hover {
+    background: #f0f0f0;
+}
